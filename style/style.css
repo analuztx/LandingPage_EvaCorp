@@ -2,3 +2,67 @@
     width: 100%;
     height: 20%;
 }
+
+h3{
+    font-size: 20px;
+    font-family: 'OpenSans-VariableFont_wdth';
+    width: 70%;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Poppins-LightItalic';
+    font-weight: bolder;
+}
+
+.cards{
+    bottom: 110px;
+    position: relative;
+    display: inline;
+}
+
+h4{
+    color: black;
+    font-size: 19px;
+    width: 210px;
+}
+
+@font-face {
+    src: url(../fonts/quicksand/Quicksand-VariableFont_wght.ttf);
+    font-family: 'Quicksand';
+  }
+
+  @font-face {
+    font-family: 'JosefinSans-VariableFont_wght' ;
+    src: url(../fonts/josefin/JosefinSans-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: 'Poppins-Regular' ;
+    src: url(../fonts/pop/Poppins-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:'Poppins-LightItalic' ;
+    src: url(../fonts/pop/Poppins-LightItalic.ttf);
+  }
+
+  @font-face {
+    font-family:'KdamThmorPro-Regular' ;
+    src: url(../fonts/kdam/KdamThmorPro-Regular.ttf);
+  }
+
+  @font-face {
+    font-family:'BebasNeue-Regular' ;
+    src: url(../fonts/bebas/BebasNeue-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'OpenSans-Italic-VariableFont_wdth';
+    src: url(../fonts/open/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  }
+
+  @font-face {
+    font-family: 'OpenSans-VariableFont_wdth' ;
+    src: url(../fonts/open/OpenSans-VariableFont_wdth\,wght.ttf);
+  }
