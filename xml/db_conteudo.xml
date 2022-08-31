@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<conteudo>
+		<postagem codigo="1">
+			<titulo>SISTEMA MOBILE</titulo>
+			<corpo>Consectetur adipiscing elit. Sed condimentum porttitor nisi in iaculis. Aliquam posuere neque non risus ornare porttitor. Vivamus laoreet ante orci. Praesent quis semper eros. Donec sollicitudin diam ut venenatis dictum.
+			</corpo>
+			<imagem_1 fileName="mobile.png">mobile.png</imagem_1>
+		</postagem>
+
+		<postagem codigo="2">
+			<titulo>SISTEMA ARDUINO</titulo>
+			<corpo>Consectetur adipiscing elit. Sed condimentum porttitor nisi in iaculis. Aliquam posuere neque non risus ornare porttitor. Vivamus laoreet ante orci. Praesent quis semper eros. Donec sollicitudin diam ut venenatis dictum.
+			</corpo>
+			<imagem_1 fileName="mobile.png">arduino.png</imagem_1>
+		</postagem>
+
+	</conteudo>
