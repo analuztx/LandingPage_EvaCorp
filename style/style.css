@@ -1,13 +1,4 @@
-.imagemcapa{
-    width: 100%;
-    height: 20%;
-}
-
-h3{
-    font-size: 20px;
-    font-family: 'OpenSans-VariableFont_wdth';
-    text-align: center;
-}
+/* Letras */
 
 h1{
     font-size: 30px;
@@ -16,20 +7,78 @@ h1{
     text-align: center;
 }
 
+h3{
+  font-size: 20px;
+  font-family: 'OpenSans-VariableFont_wdth';
+  text-align: center;
+}
+
+h4{
+  color: black;
+  font-size: 19px;
+  width: 210px;
+}
+
+/* Início */
+
 .cards{
     bottom: 110px;
     position: relative;
     display: inline;
 }
 
-h4{
-    color: black;
-    font-size: 19px;
-    width: 210px;
+
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
 }
 
-.cardequipe{
-  align-items: center;
+[data-anime="left"]{
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"]{
+  transform: translate3d(50px, 0, 0);
+}
+
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.area-0, .area-1, .area-2, .area-3{
+  visibility: hidden;
+}
+
+/* Equipe */
+
+.card-body{
+  text-align: center;
+}
+
+/* Distanciamento */
+
+#apply-area{
+  height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+  height: 100%;
+}
+
+#apply-area .apply-blox{
+  text-align: center;
+  padding: 70px 50px;
+}
+
+#company-img{
+  background-image: url('../img/distanciamentometro.jpg');
+  background-size: cover;
+  height: 100%;
 }
 
 @font-face {

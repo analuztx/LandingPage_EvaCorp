@@ -15,3 +15,4 @@ function funcaoConteudo(){
 		"<td>" + x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue + "</td>" +			
 		"<td>" + x[i].getElementsByTagName("corpo")[0].childNodes[0].nodeValue.substr(0,250) + "</td></tr>");}
 }
+
