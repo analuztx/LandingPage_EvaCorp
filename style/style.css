@@ -28,7 +28,63 @@ h4{
     display: inline;
 }
 
+.navbar-light{
+  background-color: rgb(12, 94, 105);
+}
 
+.bg-white{
+  border-radius: 3%; 
+  box-shadow: 7px 10px 31px black;
+}
+
+.section2{
+  background-color: #FFF;
+  padding:10px 10px;
+}
+
+.main-title{
+  top: -20%;
+}
+
+.section3{
+  padding:100px 20px; 
+  background-color: rgba(12, 94, 105, 0.658);
+}
+
+.float-right{
+  margin-top: 2%; 
+  text-align:center; 
+  font-family: 'OpenSans-VariableFont_wdth'; 
+  font-size:19px
+}
+
+.subtitle-one{
+  font-size: 35px; 
+  margin-left: 4%;
+}
+
+.image-eva{
+  margin-top: -10%;
+}
+
+.description-mobile{
+  margin-top: 1%; 
+  margin-left: -7%; 
+  text-align: left;
+}
+
+.description-web{
+  margin-top: 1%; 
+  margin-left: -7%; 
+  text-align: left;
+}
+
+.image-app-mobile{
+  width:95%; 
+  height: 86%; 
+  border-radius: 2rem; 
+  margin-left: 2%;
+}
 
 /* Animação */
 
@@ -87,6 +143,10 @@ h4{
 
 .linkedin:hover > *{
   transform: translateY(0);
+}
+
+.card img{
+  filter: grayscale(100%);
 }
 
 /* Distanciamento */
