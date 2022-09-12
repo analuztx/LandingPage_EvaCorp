@@ -39,6 +39,8 @@
 <div id="section1" class="container-fluid text-white" style="
 padding:200px 100px; 
 background-color: rgb(12, 94, 105);
+filter: grayscale(100%);
+box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 ">
   <div class="area-0">
     <h2 style="font-family:'Courier New', Courier, monospace; font-weight: bold;">Tech-19 em combate à Covid-19</h2>
@@ -46,7 +48,7 @@ background-color: rgb(12, 94, 105);
   </div>
 
   <div class="container mt-3">
-    <button type="button" class="btn btn-outline-dark"
+    <button type="button" class="btn btn-outline-light"
       style="margin-top: 2%; margin-left: -1%; font-weight: bold; border-radius: 500px;">Saiba Mais</button>
   </div>
 
@@ -374,8 +376,6 @@ background-color: rgb(12, 94, 105);
       }
     })
   }
-
-  animeScroll();
 
   if (target.length) {
     window.addEventListener('scroll', debounce(function () {
