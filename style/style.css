@@ -1,91 +1,123 @@
 /* Letras */
 
-h1{
-    font-size: 30px;
-    font-family: 'Poppins-LightItalic';
-    font-weight: bolder;
-    text-align: center;
+h1 {
+  font-size: 30px;
+  font-family: 'Poppins-LightItalic';
+  font-weight: bolder;
+  text-align: center;
 }
 
-h3{
+h3 {
   font-size: 20px;
   font-family: 'Montserrat-Italic-VariableFont_wght';
   text-align: center;
 }
 
-h4{
+h4 {
   color: black;
   font-size: 19px;
-  font-family: 'Montserrat-Italic-VariableFont_wght';;
+  font-family: 'Montserrat-Italic-VariableFont_wght';
+  ;
   width: 210px;
 }
 
 /* Início */
 
-.cards{
-    bottom: 110px;
-    position: relative;
-    display: inline;
+#section1{
+  padding:200px 100px; 
+background-color: rgb(12, 94, 105);
+filter: grayscale(100%);
+box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 
-.navbar-light{
+.cards {
+  bottom: 110px;
+  position: relative;
+  display: inline;
+}
+
+.navbar-light {
   background-color: rgb(12, 94, 105);
   filter: grayscale(100%);
 }
 
-.bg-white{
-  border-radius: 3%; 
+.bg-white {
+  border-radius: 3%;
   box-shadow: 7px 10px 31px black;
 }
 
-.section2{
+.section2 {
   background-color: #FFF;
-  padding:10px 10px;
+  padding: 10px 10px;
 }
 
-.main-title{
+.main-title {
   top: -20%;
 }
 
-.section3{
-  padding:100px 20px; 
+.section3 {
+  padding: 100px 20px;
   background-color: rgba(0, 0, 0, 0.658);
-  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
 
-.float-right{
-  margin-top: 2%; 
-  text-align:center; 
-  font-family: 'OpenSans-VariableFont_wdth'; 
-  font-size:19px
+.float-right {
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'OpenSans-VariableFont_wdth';
+  font-size: 19px
 }
 
-.subtitle-one{
-  font-size: 35px; 
+.subtitle-one {
+  font-size: 35px;
   margin-left: 4%;
 }
 
-.image-eva{
+.image-eva {
   margin-top: -10%;
+  margin-left: -20%;
 }
 
-.description-mobile{
-  margin-top: 1%; 
-  margin-left: -7%; 
+.description-mobile {
+  margin-top: 1%;
+  margin-left: -7%;
   text-align: left;
 }
 
-.description-web{
-  margin-top: 1%; 
-  margin-left: -7%; 
+.description-web {
+  margin-top: 1%;
+  margin-left: -7%;
   text-align: left;
 }
 
-.image-app-mobile{
-  width:95%; 
-  height: 86%; 
-  border-radius: 2rem; 
-  margin-left: 2%;
+.image-app-mobile {
+  width: 110%;
+  border-radius: 1rem;
+  margin-left: -4%;
+}
+
+.fa-microchip{
+  font-size: 70px;
+  display: flex; 
+  margin-left: 260px;
+  margin-top: -95px; 
+  color: #000;
+}
+
+.fa-handshake{
+  font-size: 70px;
+  display: flex; 
+  margin-left: 260px;
+  margin-top: -95px; 
+  color: #000;
+}
+
+.fa-users{
+  font-size: 70px;
+  display: flex; 
+  margin-left: 260px;
+  margin-top: -95px; 
+  color: #000;
 }
 
 /* Animação */
@@ -95,31 +127,34 @@ h4{
   transition: .3s;
 }
 
-[data-anime="left"]{
+[data-anime="left"] {
   transform: translate3d(-50px, 0, 0);
 }
 
-[data-anime="right"]{
+[data-anime="right"] {
   transform: translate3d(50px, 0, 0);
 }
 
 
-[data-anime].animate{
+[data-anime].animate {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
 
-.area-0, .area-1, .area-2, .area-3{
+.area-0,
+.area-1,
+.area-2,
+.area-3 {
   visibility: hidden;
 }
 
 /* Equipe */
 
-.card-body{
+.card-body {
   text-align: center;
 }
 
-.linkedin{
+.linkedin {
   position: absolute;
   top: 0;
   left: 0;
@@ -134,90 +169,91 @@ h4{
   transition: opacity 0.50s;
 }
 
-.linkedin > * {
+.linkedin>* {
   transform: translateY(20px);
   transition: transform 0.50s;
 }
 
-.linkedin:hover{
+.linkedin:hover {
   opacity: 1;
 }
 
-.linkedin:hover > *{
+.linkedin:hover>* {
   transform: translateY(0);
 }
 
-.card img{
+.card img {
   filter: grayscale(100%);
 }
 
 /* Distanciamento */
 
-#apply-area{
+#apply-area {
   height: 500px;
 }
 
-#apply-area .container-fluid, #apply-area .row{
+#apply-area .container-fluid,
+#apply-area .row {
   height: 100%;
 }
 
-#apply-area .apply-blox{
+#apply-area .apply-blox {
   text-align: center;
   padding: 70px 50px;
 }
 
-#company-img{
+#company-img {
   background-image: url('../img/distanciamentometro.jpg');
   background-size: cover;
   height: 100%;
 }
 
 @font-face {
-    src: url(../fonts/quicksand/Quicksand-VariableFont_wght.ttf);
-    font-family: 'Quicksand';
-  }
+  src: url(../fonts/quicksand/Quicksand-VariableFont_wght.ttf);
+  font-family: 'Quicksand';
+}
 
-  @font-face {
-    font-family: 'JosefinSans-VariableFont_wght' ;
-    src: url(../fonts/josefin/JosefinSans-VariableFont_wght.ttf);
-  }
+@font-face {
+  font-family: 'JosefinSans-VariableFont_wght';
+  src: url(../fonts/josefin/JosefinSans-VariableFont_wght.ttf);
+}
 
-  @font-face {
-    font-family: 'Poppins-Regular' ;
-    src: url(../fonts/pop/Poppins-Regular.ttf);
-  }
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(../fonts/pop/Poppins-Regular.ttf);
+}
 
-  @font-face {
-    font-family:'Poppins-LightItalic' ;
-    src: url(../fonts/pop/Poppins-LightItalic.ttf);
-  }
+@font-face {
+  font-family: 'Poppins-LightItalic';
+  src: url(../fonts/pop/Poppins-LightItalic.ttf);
+}
 
-  @font-face {
-    font-family:'KdamThmorPro-Regular' ;
-    src: url(../fonts/kdam/KdamThmorPro-Regular.ttf);
-  }
+@font-face {
+  font-family: 'KdamThmorPro-Regular';
+  src: url(../fonts/kdam/KdamThmorPro-Regular.ttf);
+}
 
-  @font-face {
-    font-family:'BebasNeue-Regular' ;
-    src: url(../fonts/bebas/BebasNeue-Regular.ttf);
-  }
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url(../fonts/bebas/BebasNeue-Regular.ttf);
+}
 
-  @font-face {
-    font-family: 'OpenSans-Italic-VariableFont_wdth';
-    src: url(../fonts/open/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
-  }
+@font-face {
+  font-family: 'OpenSans-Italic-VariableFont_wdth';
+  src: url(../fonts/open/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
 
-  @font-face {
-    font-family: 'OpenSans-VariableFont_wdth' ;
-    src: url(../fonts/open/OpenSans-VariableFont_wdth\,wght.ttf);
-  }
+@font-face {
+  font-family: 'OpenSans-VariableFont_wdth';
+  src: url(../fonts/open/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 
-  @font-face {
-    font-family: 'Montserrat-Italic-VariableFont_wght';
-    src: url(../fonts/mont/Montserrat-Italic-VariableFont_wght.ttf);
-  }
+@font-face {
+  font-family: 'Montserrat-Italic-VariableFont_wght';
+  src: url(../fonts/mont/Montserrat-Italic-VariableFont_wght.ttf);
+}
 
-  @font-face {
-    font-family: 'Montserrat-VariableFont_wght' ;
-    src: url(../fonts/mont/Montserrat-VariableFont_wght.ttf);
-  }
+@font-face {
+  font-family: 'Montserrat-VariableFont_wght';
+  src: url(../fonts/mont/Montserrat-VariableFont_wght.ttf);
+}
