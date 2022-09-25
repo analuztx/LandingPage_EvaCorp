@@ -1,17 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<conteudo>
-		<postagem codigo="1">
-			<titulo>SISTEMA MOBILE</titulo>
-			<corpo>Consectetur adipiscing elit. Sed condimentum porttitor nisi in iaculis. Aliquam posuere neque non risus ornare porttitor. Vivamus laoreet ante orci. Praesent quis semper eros. Donec sollicitudin diam ut venenatis dictum.
-			</corpo>
-			<imagem_1 fileName="mobile.png">mobile.png</imagem_1>
-		</postagem>
 
-		<postagem codigo="2">
-			<titulo>SISTEMA ARDUINO</titulo>
-			<corpo>Consectetur adipiscing elit. Sed condimentum porttitor nisi in iaculis. Aliquam posuere neque non risus ornare porttitor. Vivamus laoreet ante orci. Praesent quis semper eros. Donec sollicitudin diam ut venenatis dictum.
-			</corpo>
-			<imagem_1 fileName="mobile.png">arduino.png</imagem_1>
-		</postagem>
+	<tituloinicio>
+	EvaCorp em combate à Covid-19
+	</tituloinicio>
+	<titulosobreinicio>
+	Sua proteção é a nossa prioridade!
+	</titulosobreinicio>
 
+		<titulo>
+		SOBRE NÓS
+		</titulo>
+		<corpo>
+		A equipe EvaCorp tem como objetivo a promoção da conscientização do vírus Covid-19 e seus métodos de segurança, para que cada vez mais, menos pessoas se infectem com a doença, para que a proliferação, seja de uma vez por todas amenizada. Atualmente, depois da diminuição de casos do vírus, a preocupação das pessoas também amenizou, principalmente em atividade corriqueiras do dia à dia, no entanto, a circulação da doença ainda não acabou, e até que acabe completamente, o sistema EVA pode ajudar a amenizar os casos de Covid
+		</corpo>
+
+	<titulosobre>
+	PROJETO EVA
+	</titulosobre>
+	<corposobre1>
+ 	O projeto EVA é um TCC (Trabalho de Conclusão de Curso), com o objetivo de ajudar
+	estabelecimentos comerciais com os métodos adotados contra a Covid-19, mas principalmente,
+	o projeto é feito para ajudar a sociedade a se manter segura diante um vírus ainda perigoso e devastador.
+	</corposobre1>
+
+		<tituloarduino>
+		SISTEMA ARDUINO
+		</tituloarduino>
+		<corpoarduino>
+		A base do projeto EVA consiste no arduino e os sensores de distância e presença, 
+		que irão fornecer os dados necessários para que haja o controle do distanciamento.
+		</corpoarduino>
+
+	<tituloweb>
+	SISTEMA WEB
+	</tituloweb>	
+	<corpoweb>
+	Com base nas informações fornecidas pelos sensores e armazenadas no banco de dados, desenvolvemos um sistema web que tem como função levar esses dados para os clientes dentro do estabelecimento, em uma televisão, deixando bem vísivel quem está descumprindo o distanciamento, de maneira simples e didática.
+	</corpoweb>
+
+		<tituloapp>
+		APLICATIVO EVA
+		</tituloapp>
+		<corpoapp>
+		Com o novo aplicativo EVA, você pode obter segurança toda vez que for sair de casa.
+		Verifique se o estabelecimento de destino está lotado ou vazio, para que você possa sair e voltar para a sua casa protegido do vírus COVID-19!
+		</corpoapp>
+		<corpoapp2>
+		GRATUITO NA PLAY E APPLE STORE
+		</corpoapp2>
+
+	<titulodistanciamento>
+	DISTANCIAMENTO SOCIAL
+	</titulodistanciamento>
+	<sobredistanciamento>
+	O distanciamento social foi uma das primeiras medidas tomadas
+    pelos Orgãos de Saúde por todo o Mundo, desde o início da
+    proliferação do vírus Covid-19.
+	
+    De acordo com a Recomendação N° 036, de 11 de Maio de 2020 feita
+    pelo presidente do Conselho Nacional de Saúde (CNS), considerando
+    as recomendações feitas pela OMS (Organização Mundial da Saúde),
+    solicita que sejam implementadas medidas de distanciamento social
+    no país, e que as organizações governamentais garantam que pelo
+    menos 60% da população estejam cumprindo este pedido, pois, é uma
+    estratégia importante para quando há indivíduos já infectados,
+    porém assintomático, que estão portando a doença, porém não estão
+    em isolamento, pois, não sentem sintomas.
+	</sobredistanciamento>
+		
+
+		<footer>
+		Termos de Uso • Políticas de Privacidade
+		</footer>
+
+	<footer2>
+	COPYRIGHT 2022 | EvaCorp
+	</footer2>
+
+		<titulocardum>
+		Clientes
+		</titulocardum>		
+		<cardumsobre>
+		Ajudando clientes a desenvolverem seu sistema de maneira fácil, rápida e prática
+		</cardumsobre>
+	
+	<titulocarddois>
+	Tecnologia
+	</titulocarddois>		
+	<carddoissobre>
+	Utilizando as melhores e mais novas tecnologias do mercado!
+	</carddoissobre>
+	
+		<titulocardtres>
+		Equipe	
+		</titulocardtres>		
+		<cardtressobre>
+		Uma equipe sempre muito preparada para a construção de um sistema.
+		</cardtressobre>
+
+	<equipe>
+	Nossa Equipe
+	</equipe>
+
+		<ananome>
+		Ana Pupo
+		</ananome>
+		<anasobre>
+		Desenvolvedora Web
+		</anasobre>
+
+	<arturnome>
+	Artur
+	</arturnome>
+	<artursobre>
+	Desenvolvedor Arduino
+	</artursobre>
+
+		<davilnome>
+		Davi Lopes
+		</davilnome>
+		<davilsobre>
+		Desenvolvedor Mobile
+		</davilsobre>
+	
+	<davimnome>
+	Davi Mathais
+	</davimnome>
+	<davimsobre>
+	Design
+	</davimsobre>
 	</conteudo>
