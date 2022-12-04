@@ -3,7 +3,7 @@ xmlhttp = new XMLHttpRequest();
 xmlhttp.open("GET", "xml/db_conteudo.xml", false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML;
-
+let y = xmlDoc.getElementsByTagName("noticia");
 let x = xmlDoc.getElementsByTagName("conteudo");
 
 /* Exibe o conteúdo */
@@ -230,4 +230,51 @@ function funcaosobredavim() {
 	}
 }
 
+function noticia() {
+	n = y.length - 1;
+    for (var i = n; i >= 0; i--){
+        document.write("<div class='row'><div class='col-md' style='border: 1px solid #000; border-radius: 10px; margin-top: 20px'><a href='noticia.html?num_noticia=" + i + "' class='stretched-link' style='text-decoration: none;'><div class='titulocovid' style='font-size: 20px; color: #00ff'>" +  y[i].getElementsByTagName("titulonoticia")[0].childNodes[0].nodeValue  + "</div></a> <div class='blog-entry ftco-animate d-md-flex fadeInUp ftco-animated'><a href='single.html' class='img img-2'></a><div class='text'><h3 class='mb-2'><a href='single.html' style='text-align:left; text-decoration: none; color:#000; font-size: 20px'></a></h3><div class='meta-wrap'><p class='meta'><span><i class='icon-calendar mr-2' style='opacity: 70%;'>"+  y[i].getElementsByTagName("data")[0].childNodes[0].nodeValue + "</i></span></p></div><p class='mb-4' style='font-size: 18px'>"+   y[i].getElementsByTagName("postagem")[0].childNodes[0].nodeValue.substr(0,401)  +"...</p><p><a href='noticia.html?num_noticia=" + i + "' class='stretched-link' style='font-size: 15px; color: #00ff'>Leia Mais<span class='ion-ios-arrow-forward'></span></a></p></div></div></div></div>");
+    }
+}
 
+
+function titulonoticia(){
+	url = new URL(window.location.href)
+	p = url.searchParams;
+    i = p.get("num_noticia");
+	
+	document.write(y[i].getElementsByTagName("titulonoticia")[0].childNodes[0].nodeValue)
+}
+
+function datanoticia(){
+	url = new URL(window.location.href)
+	p = url.searchParams;
+    i = p.get("num_noticia");
+	
+	document.write(y[i].getElementsByTagName("data")[0].childNodes[0].nodeValue)
+}
+
+
+function postagemnoticia(){
+	url = new URL(window.location.href)
+	p = url.searchParams;
+    i = p.get("num_noticia");
+	
+	document.write(y[i].getElementsByTagName("postagem")[0].childNodes[0].nodeValue)
+}
+
+function imagemnoticia(){
+	url = new URL(window.location.href)
+	p = url.searchParams;
+    i = p.get("num_noticia");
+	
+	document.write("<img src='img/"+ y[i].getElementsByTagName("imagem")[0].childNodes[0].nodeValue + "'");
+}
+
+function fontenoticia(){
+	url = new URL(window.location.href)
+	p = url.searchParams;
+    i = p.get("num_noticia");
+	
+	document.write(y[i].getElementsByTagName("fonte")[0].childNodes[0].nodeValue)
+}

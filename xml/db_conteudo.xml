@@ -107,7 +107,7 @@
 		Ana Pupo
 		</ananome>
 		<anasobre>
-		Desenvolvedora Web
+		Desenvolvedora Web e Mobile
 		</anasobre>
 
 	<arturnome>
@@ -130,4 +130,72 @@
 	<davimsobre>
 	Design
 	</davimsobre>
+
+
+	
+	<!--BLOG-->
+
+
+	<noticia>
+		<titulonoticia>Copa do Mundo e festas de fim de ano vão manter casos de Covid em alta até janeiro</titulonoticia>
+		<data>4.dez.2022 às 13h00</data>
+		<imagem>aglomeracao.jpg</imagem>
+		<postagem>
+		As aglomerações para compras de fim de ano, assistir aos jogos da Copa do Mundo e as festas de Natal e Ano Novo vão impulsionar a alta de casos de Covid-19 —já notada há algumas semanas no país— até janeiro. É o que dizem os especialistas ouvidos pela Folha.
+
+		"Na verdade, já estão impulsionando. O que a gente enxerga é muito menor do que acontece de verdade. Esses fenômenos causam aglomeração, muita circulação de pessoas num momento de aumento de casos e variantes altamente infectantes, e de quebra da cobertura vacinal, sobretudo as de reforço. Isso contribui muito para a disseminação do vírus", afirma Evaldo Stanislau de Araújo, infectologista do Hospital das Clínicas de São Paulo.
+
+		Para Araújo, ainda é impossível predizer quando a transmissão do coronavírus começará a desacelerar. Segundo o médico, uma característica do momento atual da Covid-19 é que as ondas estão cada vez mais próximas umas das outras e trazem um número maior de reinfecções.
+
+		"As pessoas perderam o medo, normalizaram a Covid-19 e a tratam como se fosse uma gripe, o que é um erro. Mesmo as formas leves da doença podem trazer consequências futuras, como danos neurológicos, cardiológicos e respiratórios, além da Covid prolongada. E há possibilidade de a reinfecção levar a formas graves e complicações tardias", diz o infectologista do HC.
+
+		As medidas de contenção, como uso da máscara –principalmente em ambiente fechado, sem renovação de ar e com aglomeração– o esquema vacinal completo, inclusive com as doses de reforço, são essenciais para o controle da Covid-19
+
+		Para as festas e reuniões, vale o alerta: para maior segurança, é recomendada a testagem de todos os convidados no mesmo dia do evento. "Hoje, temos a facilidade de encontrar autoteste disponível nas farmácias", lembra Araújo.
+
+		Para Wallace Casaca, coordenador da plataforma SP Covid-19 Info Tracker, criada por pesquisadores da USP e UNESP para acompanhar a evolução da pandemia, vamos conviver com aumentos pontuais de novos casos até janeiro.
+
+		"Existe uma subnotificação em razão de falta de testagem e de políticas públicas de incentivo à testagem. E os autotestes não são notificados. Esses fatores diminuem a precisão na hora de mensurar o impacto real da doença. Por outro lado, é possível aferir um aumento substancial de novos casos de Covid, além da elevação das internações e mortes, embora em patamares inferiores em relação às ondas da doença em 2020, 2021 e início de 2022", afirma Casaca.
+
+		"Em países que tiveram surtos da doença pelas mesmas subvariantes, a Covid levou cerca de um mês para atingir o pico de casos, se manteve em platô por alguns dias e iniciou o processo de descida, que levou cerca de 20 dias. Cabe explicar que o ritmo de crescimento de casos não é o mesmo em todas as regiões do país, embora o consolidado do Brasil mantenha tendência de crescimento atualmente", explica o coordenador da plataforma.
+
+		Na avaliação de Alexandre Naime Barbosa, professor da Unesp (Universidade Estadual Paulista) e vice-presidente da Sociedade Brasileira de Infectologia, o pico dos casos de Covid deve ser atingido em duas semanas, ficará em platô até a primeira quinzena de janeiro e depois começa a desacelerar.
+
+		"Isso porque as festas de final de ano são momentos de muita transmissão. Já fui consultado por grandes empresas que perguntaram se deveriam ou não fazer festa de confraternização e eu disse que não. Ainda não é o momento de expor uma população que pode ser vulnerável à infecção pelo vírus", diz Barbosa.
+
+		O cientista ressalta que a regra também vale para festas familiares. "As que expõem pessoas vulneráveis são desaconselháveis." Segundo o médico, quem for a estes eventos deve evitar contato com idosos e imunossuprimidos.
+
+		</postagem>
+		<fonte>FONTE: https://www1.folha.uol.com.br/equilibrioesaude/2022/12/copa-do-mundo-e-festas-de-fim-de-ano-vao-manter-casos-de-covid-em-alta-ate-janeiro.shtml</fonte>
+	</noticia>
+
+
+
+
+	<noticia>
+		<titulonoticia>Positivos para Covid-19 caem oito pontos percentuais em uma semana</titulonoticia>
+		<data>04/12/2022 às 12:19 | Atualizado 04/12/2022 às 12:20</data>
+		<imagem>covidnegativo.png</imagem>
+		<postagem>
+		Apesar da alta de casos de Covid-19, dados de laboratórios indicam que a nova onda de infecção já está diminuindo.
+
+		De acordo com o Instituto Todos Pela Saúde, a positividade de testes para SARS-CoV-2 atingiu pico de 41% na semana encerrada em 19 de novembro e, então, passou a cair. Até 26 de novembro, o percentual de testes positivos registrado foi de 33%.
+
+		Segundo o Instituto este pode ser um sinal de que a terceira onda da Ômicron deve ser menos aguda do que as anteriores. As análises são com base em 493.140 testes realizados pelos laboratórios parceiros Dasa, DB Molecular e HLAGyn, de 1º de fevereiro a 26 de novembro.
+
+		As ondas têm características diferentes. A primeira da Ômicron, iniciada em dezembro de 2022, teve dois meses e meio de duração, e o pico se manteve por duas semanas. A segunda, a partir de abril, foi a mais longa: durou quatro meses e meio e teve uma semana de pico. Já a terceira onda, que começou em outubro, tem até agora um mês e meio, e pico também de uma semana.
+
+		Em relação às faixas etárias, a positividade aumenta, em geral, conforme avança a idade. Na última semana avaliada, a taxa foi de 11% em crianças de 0 a 4 anos e de 5 a 9 anos. Depois, subiu para 23% na faixa 10 a 19 anos. Os percentuais mais elevados foram observados em pessoas de 50 a 59 anos e acima de 80 (47%), de 70 a 79 anos (46%) e de 60 a 69 anos (45%).
+
+		Quando observamos os estados com número adequado de testes para análise, a positividade está em queda em São Paulo (40% para 35%) e no Rio de Janeiro (45% para 36%).
+
+		Foi apresentada oscilação em Minas Gerais de (28% para 29%) e continua crescendo em Goiás (27% para 34%). É importante ressaltar que o Brasil, por ser um país imenso, tem diferentes dinâmicas da pandemia dentro de seu território. A positividade dos testes é um indicador das transmissões virais.
+
+		O ITpS alerta que, apesar de aparentemente a terceira onda da Ômicron estar em queda, a taxa de positividade de 33% é elevada, o que indica alto contágio do vírus SARS-CoV-2.
+
+		A recomendação é que a população esteja com a vacinação em dia (três, quatro ou cinco doses, dependendo da idade e da condição de saúde), use máscara especialmente em locais fechados e com pouca ventilação, higienize as mãos e faça o teste em caso de suspeita.
+		</postagem>
+		<fonte>FONTE: https://www.cnnbrasil.com.br/saude/testes-positivos-para-covid-19-caem-oito-pontos-percentuais-em-uma-semana/</fonte>
+	</noticia>
 	</conteudo>
+

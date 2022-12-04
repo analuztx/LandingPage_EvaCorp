@@ -317,6 +317,17 @@ h5 {
   height: 100%;
 }
 
+.cardeva{
+  position: relative;
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+}
+
+.col{
+  border: 1px solid #000;
+}
+
 .imagem-distanciamento {
   filter: grayscale(100%);
 }
